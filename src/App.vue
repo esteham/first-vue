@@ -19,6 +19,12 @@ const doctors = [
     name: 'Dr. Asif Shariar',
     speciality: 'Neurology',
   },
+  {
+    id: 2,
+    photo: 'images/nishi.jpg',
+    name: 'Dr. Nishi Gupta',
+    speciality: 'Neurology',
+  },
 ]
 
 function confirmBooking() {
