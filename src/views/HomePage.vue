@@ -2,9 +2,9 @@
   <div>
     <div id="homeCarousel" class="carousel slide shadow-sm" data-bs-ride="carousel">
       <ol class="carousel-indicators">
-        <li data-bs-target="#homeCarousel" class="active"></li>
-        <li data-bs-target="#homeCarousel"></li>
-        <li data-bs-target="#homeCarousel"></li>
+        <li data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active"></li>
+        <li data-bs-target="#homeCarousel" data-bs-slide-to="1"></li>
+        <li data-bs-target="#homeCarousel" data-bs-slide-to="2"></li>
       </ol>
 
       <div class="carousel-inner">
@@ -48,11 +48,11 @@
 
       <a class="carousel-control-prev" href="#homeCarousel" role="button" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+        <span class="visually-hidden">Previous</span>
       </a>
       <a class="carousel-control-next" href="#homeCarousel" role="button" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
+        <span class="visually-hidden">Next</span>
       </a>
     </div>
 
